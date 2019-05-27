@@ -46,7 +46,7 @@ window.addEventListener('load', function() {
 	var allImageNodes = document.getElementsByClassName('img-thumbnail')
 	for(i =0;i<allImageNodes.length;i++)
 	{
-		imageName = "images/" + words[wordParam]['Id']+ "_" +  words[wordParam]['English Translation'] + i + ".jpeg"
+		imageName = "images_resized/" + words[wordParam]['Id']+ "_" +  words[wordParam]['English Translation'] + i + ".jpeg"
 		allImageNodes[i].setAttribute('src',imageName)
 	}
 
