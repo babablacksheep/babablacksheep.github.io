@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="word_display.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<title>Word Categories</title>
+</head>
+
+
+<body>
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col mb-0">
+				<div id="back_button" class="h1"><a class="btn btn-primary align-baseline" href="test_bootstrap.html">Back</a></div>
+			</div>
+			<div class="col mb-0">
+				<div id="marathi_word" class="display-1 align-baseline" class="text-center">बहीण</div>
+			</div>
+			<div class="col mb-0">
+				<div class="h1" class="text-center align-baseline" id="english_word" >translation</div>
+			</div>
+		</div>
+	</div> -->
+	<table class="table">
+		<tbody>
+			<tr>
+				<th scope="row"></th>
+				<td class="align-top align-left ml-0"><div id="back_button"><a class="btn btn-light" href="test_bootstrap.html">Back</a></div></td>
+				<td class="align-baseline"><div id="marathi_word" class="display-1 text-center border">बहीण</div>
+					<div class="h1 text-center" id="english_word" >translation</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<div class="container">
+		<div class="row">
+
+		</div>
+		<div class="row">
+			<div class="col">
+				<div id="play_button"><button class="btn btn-primary btn-block btn-lg">Play</button></div>
+				<audio id="audio_player">
+					<source src="audio/2.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+				</div>
+
+				<div class = "col">
+					<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-secondary active">
+							<input type="radio" name="playback_speed" value="1.0" id="option1" autocomplete="off" checked> 1.0x
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" value="0.75" name="playback_speed" id="option2" autocomplete="off"> 0.75x
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" name="playback_speed" value="0.5" id="option3" autocomplete="off"> 0.5x
+						</label>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+			<div class="row"><br></div>
+			<div class="row imagetiles">
+				<div class="col-sm-12 col-md-6">
+					<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/JM_marbles_01.jpg/1920px-JM_marbles_01.jpg class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/JM_marbles_01.jpg/1920px-JM_marbles_01.jpg class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/JM_marbles_01.jpg/1920px-JM_marbles_01.jpg class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/JM_marbles_01.jpg/1920px-JM_marbles_01.jpg class="img-fluid img-thumbnail">
+				</div>
+			</div>
+		</div>
+	</body>
