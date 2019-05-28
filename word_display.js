@@ -37,7 +37,7 @@ window.addEventListener('load', function() {
 	englishWord.innerHTML = words[wordParam]['English Translation']
 
 	var audioSource = document.getElementById("audio_player").getElementsByTagName('source')[0]
-	audioSource.setAttribute('src','audio/' + words[wordParam]['Id'] + ".mp3")
+	audioSource.setAttribute('src','audio/' + (words[wordParam]['Id']+1) + ".mp3")
 	var playButton = document.getElementById("play_button").addEventListener('click',playAudio)
 
 
